@@ -1,7 +1,13 @@
 <template>
     <div>
         <div>layout</div>
-        <nav></nav>
+        <nav>
+            <ul>
+                <li>
+                    <RouterLink to="/">ref reactive computed</RouterLink>
+                </li>
+            </ul>
+        </nav>
         <router-view></router-view>
     </div>
 </template>

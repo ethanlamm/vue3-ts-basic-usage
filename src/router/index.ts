@@ -9,6 +9,13 @@ const router = createRouter({
       path: '/',
       name: "layout",
       component: Layout,
+      children: [
+        {
+          path: '/',
+          name: 'responsive',
+          component: () => import('@/views/Responsive.vue')
+        }
+      ]
     }
   ]
 })
