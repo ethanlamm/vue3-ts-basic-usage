@@ -12,6 +12,9 @@
                 <li>
                     <RouterLink to="/props&emits">defineProps defineEmits</RouterLink>
                 </li>
+                <li>
+                    <RouterLink to="/provide&inject">provide inject</RouterLink>
+                </li>
             </ul>
         </nav>
         <router-view></router-view>

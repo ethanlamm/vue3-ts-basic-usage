@@ -25,6 +25,11 @@ const router = createRouter({
           name: 'props&emits',
           component: () => import('@/views/PropsEmits.vue')
         },
+        {
+          path: '/provide&inject',
+          name: 'provide&inject',
+          component: () => import('@/views/ProvideInject.vue')
+        },
       ]
     }
   ]
