@@ -9,6 +9,9 @@
                 <li>
                     <RouterLink to="/event">event</RouterLink>
                 </li>
+                <li>
+                    <RouterLink to="/props&emits">defineProps defineEmits</RouterLink>
+                </li>
             </ul>
         </nav>
         <router-view></router-view>

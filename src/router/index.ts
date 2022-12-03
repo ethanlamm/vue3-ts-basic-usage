@@ -20,6 +20,11 @@ const router = createRouter({
           name: 'event',
           component: () => import('@/views/Event.vue')
         },
+        {
+          path: '/props&emits',
+          name: 'props&emits',
+          component: () => import('@/views/PropsEmits.vue')
+        },
       ]
     }
   ]
