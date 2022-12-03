@@ -6,6 +6,9 @@
                 <li>
                     <RouterLink to="/">ref reactive computed</RouterLink>
                 </li>
+                <li>
+                    <RouterLink to="/event">event</RouterLink>
+                </li>
             </ul>
         </nav>
         <router-view></router-view>

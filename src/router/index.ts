@@ -14,7 +14,12 @@ const router = createRouter({
           path: '/',
           name: 'responsive',
           component: () => import('@/views/Responsive.vue')
-        }
+        },
+        {
+          path: '/event',
+          name: 'event',
+          component: () => import('@/views/Event.vue')
+        },
       ]
     }
   ]
