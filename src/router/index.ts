@@ -30,6 +30,11 @@ const router = createRouter({
           name: 'provide&inject',
           component: () => import('@/views/ProvideInject.vue')
         },
+        {
+          path: '/refs',
+          name: 'refs',
+          component: () => import('@/views/Refs.vue')
+        },
       ]
     }
   ]

@@ -15,6 +15,9 @@
                 <li>
                     <RouterLink to="/provide&inject">provide inject</RouterLink>
                 </li>
+                <li>
+                    <RouterLink to="/refs">Refs(DOM/Component)</RouterLink>
+                </li>
             </ul>
         </nav>
         <router-view></router-view>
